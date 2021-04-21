@@ -59,6 +59,9 @@ Se crea el controlador PhotosController.php para consumir la api https://jsonpla
         ]);
         return response()->json(json_decode($response));
     }
+  
+  
+  
     
     // almacenamiento de las photos en la api
     public function store($id)
@@ -70,6 +73,13 @@ Se crea el controlador PhotosController.php para consumir la api https://jsonpla
         return response()->json(json_decode($response));
     }
     
+    
+    
+    
+    
+    
+    
+    
        // eliminacion de las photos en la api
     
     public function destroy($id)
@@ -80,7 +90,6 @@ Se crea el controlador PhotosController.php para consumir la api https://jsonpla
        
         return response()->json(json_decode($response));
     }
-
 
 
 
